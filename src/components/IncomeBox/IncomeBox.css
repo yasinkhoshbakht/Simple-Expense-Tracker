@@ -1,0 +1,39 @@
+.income-box {
+  background-color: #e9f7ef;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+.income-box h2 {
+  color: #155724;
+  margin-bottom: 15px;
+  font-family: "Arial", sans-serif;
+}
+.income-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+.income-box li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.income-box li:last-child {
+  border-bottom: none;
+}
+.income-box button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.income-box button:hover {
+  background-color: #c82333;
+}
